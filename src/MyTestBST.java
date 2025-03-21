@@ -4,7 +4,6 @@
 // Instructor: Emin Mary Abraham
 // Assignment: 5
 // IDE Name: IntelliJ
-import java.util.*;
 public class MyTestBST {
     public static void main(String[] args){
         java.util.Scanner scan = new java.util.Scanner(System.in);
@@ -133,7 +132,7 @@ public class MyTestBST {
                                 String element = scan.nextLine();
 
                                 // output
-                                System.out.print("\nTesting method delete Data Element (option 2)\n" +
+                                System.out.print("\nTesting method Delete Data Element (option 2)\n" +
                                                   "BST before deleting "+element+" (Inorder):\t");
                                 stringBST.inorder();
                                 stringBST.delete(element); // deletes element
@@ -198,7 +197,7 @@ public class MyTestBST {
                                                 "Path from root to " + element + ": ");
 
                                         // creating printable ArrayList for .path() output
-                                        ArrayList<BST.TreeNode<Integer>> path = new ArrayList<>(intBST.path(element));
+                                        java.util.ArrayList<BST.TreeNode<Integer>> path = intBST.path(element);
                                         // printing path data
                                         for(BST.TreeNode<Integer> obj: path){
                                             System.out.print(obj.element+" ");
@@ -227,7 +226,7 @@ public class MyTestBST {
                                             "Path from root to " + element + ": ");
 
                                     // creating printable ArrayList for .path() output
-                                    ArrayList<BST.TreeNode<String>> path = new ArrayList<>(stringBST.path(element));
+                                    java.util.ArrayList<BST.TreeNode<String>> path = stringBST.path(element);
                                     // printing path data
                                     for(BST.TreeNode<String> obj: path){
                                         System.out.print(obj.element+" ");
