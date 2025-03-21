@@ -1,3 +1,9 @@
+// Name: Tyler Stroud
+// Class: CS 3305/section W01
+// Term: Spring 2025
+// Instructor: Emin Mary Abraham
+// Assignment: 5
+// IDE Name: IntelliJ
 // Class Tree.java
 // Textbook, Listing 25.3, Page 935
 

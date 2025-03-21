@@ -1,7 +1,15 @@
+// Name: Tyler Stroud
+// Class: CS 3305/section W01
+// Term: Spring 2025
+// Instructor: Emin Mary Abraham
+// Assignment: 5
+// IDE Name: IntelliJ
 // Class BST.java
 // Textbook, Listing 25.5, Page 937
 
-public class BST<E extends Comparable<E>> 
+import java.util.ArrayList;
+
+public class BST<E extends Comparable<E>>
     extends AbstractTree<E> {
   protected TreeNode<E> root;
   protected int size = 0;
@@ -34,7 +42,8 @@ public class BST<E extends Comparable<E>>
     return false;
   }
 
-  @Override /** Insert element o into the binary tree
+  @Override
+  /** Insert element e into the binary tree
    * Return true if the element is inserted successfully */
   public boolean insert(E e) {
     if (root == null)

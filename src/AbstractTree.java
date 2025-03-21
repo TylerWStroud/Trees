@@ -1,3 +1,9 @@
+// Name: Tyler Stroud
+// Class: CS 3305/section W01
+// Term: Spring 2025
+// Instructor: Emin Mary Abraham
+// Assignment: 5
+// IDE Name: IntelliJ
 // Class AbstrcatTree.java
 // Textbook, Listing 25.4, Page 936
 

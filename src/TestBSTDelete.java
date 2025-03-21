@@ -1,4 +1,10 @@
-// Class TestBSTDelet.java
+// Name: Tyler Stroud
+// Class: CS 3305/section W01
+// Term: Spring 2025
+// Instructor: Emin Mary Abraham
+// Assignment: 5
+// IDE Name: IntelliJ
+// Class TestBSTDelete.java
 // Textbook, Listing 25.8, Page 946
 
 public class TestBSTDelete {
