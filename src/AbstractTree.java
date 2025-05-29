@@ -4,7 +4,7 @@
 // Instructor: Emin Mary Abraham
 // Assignment: 5
 // IDE Name: IntelliJ
-// Class AbstrcatTree.java
+// Class AbstracTree.java
 // Textbook, Listing 25.4, Page 936
 
 public abstract class AbstractTree<E> implements Tree<E> {
